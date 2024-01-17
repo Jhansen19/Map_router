@@ -1,5 +1,10 @@
 
 # jonjhans-a2
+Class: Report For Elements of AI – B551 
+Project: Assignment 2 
+Name: Jonathan Hansen 
+Date: 10/15/2023
+
 
 ## PART 3
 

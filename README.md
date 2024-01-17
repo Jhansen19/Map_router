@@ -18,7 +18,7 @@
 **Heuristic:** I used the Manhattan distance for the heuristic. This seemed to work well for finding the best route on the map. The Manhattan distance calculates a straight line between city and goal and therefore will never overestimate the true cost to reach the goal.
 
 2. Description search algorithm works:
-I used the A* search algorithm. This starts at the initial state and uses cost and heuristic to determine the best path to the goal state. The combined cost and the heuristic cost are used to figure out the best path to the goal. We pop the lowest cost path from the fringe. Backtracking is implemented in this search algorithm in case a better route opens. Open and closed lists were used to keep track of cities that were yet to be checked and cities that had already been evaluated, respectively.
+- I used the A* search algorithm. This starts at the initial state and uses cost and heuristic to determine the best path to the goal state. The combined cost and the heuristic cost are used to figure out the best path to the goal. We pop the lowest cost path from the fringe. Backtracking is implemented in this search algorithm in case a better route opens. Open and closed lists were used to keep track of cities that were yet to be checked and cities that had already been evaluated, respectively.
 
 3. Problems faced, any assumptions, simplifications, and design decisions:
 - I tried Euclidean distance and Manhattan distance in this problem and found Manhattan distance to work well and efficiently in finding the best route.

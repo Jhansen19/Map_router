@@ -1,7 +1,7 @@
 
-#jonjhans-a2
+# jonjhans-a2
 
-##PART 3
+## PART 3
 
 Description of how you formulated the search problem, including precisely defining the state space, the successor function, the edge weights, the goal state, and (if applicable) the heuristic function(s) you designed, including an argument for why they are admissible.
 Initial State: the initial state is the beginning city (i.e., start city)
